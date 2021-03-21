@@ -11,7 +11,7 @@ public class LearnReceiver {
 	public final static String RECEIVE_METHOD = "receiveMessage";
 
 	public void receiveMessage(String message) {
-		log.info(message);
+		log.info("Form received from RabbitMQ: " + message);
 	}
 
 }
